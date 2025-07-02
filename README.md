@@ -45,7 +45,14 @@ Next, scroll down the EC2 settings and make sure the Amazon Machine Image(AMI) i
 
 An AMI is a template or blueprint used to create EC2 instances and contains the operating system along with the applications needed to launch the instance.
 
-Free tier eligible AMIs are those that qualify for the AWS Free Tier, so you won't get charged for using it.
+Free tier eligible AMIs are those that qualify for the AWS Free Tier, so you won't get charged for using it. Finally launch your instance!
 <p>
 <img src="https://i.imgur.com/59YjCJG.png" height="80%" width="80%" alt="AD-adminCreation"/>
+</p>
+
+The next step is the lauch another instance with the same settings, but instead of the value being "production," name it "development" this time.
+
+At this point, you should have 2 instances running!
+<p>
+<img src="https://i.imgur.com/GmMXePm.png" height="80%" width="80%" alt="AD-adminCreation"/>
 </p>
