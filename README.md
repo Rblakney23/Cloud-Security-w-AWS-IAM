@@ -31,5 +31,5 @@ First, we will start by creating an EC2 instance:
 
 Amazon EC2 is a service that lets you rent and use virtual computers in the cloud. They're like your personal computers, but they exist on the internet instead of being physically in front of you. You can create, customize, and use these computers for all different reasons, from running applications to hosting websites.
 <p>
-<img src="https://i.imgur.com/jBgCBrs.png" height="80%" width="80%" alt="AD-adminCreation"/>
+<img src="https://i.imgur.com/eQknYh1.png" height="80%" width="80%" alt="AD-adminCreation"/>
 </p>
