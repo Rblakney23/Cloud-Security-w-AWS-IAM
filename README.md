@@ -33,3 +33,10 @@ Amazon EC2 is a service that lets you rent and use virtual computers in the clou
 <p>
 <img src="https://i.imgur.com/eQknYh1.png" height="80%" width="80%" alt="AD-adminCreation"/>
 </p>
+
+Now choose "add additional tags", you should see it near the name field.
+
+Tags are like labels you can attach to AWS resources for organization. In this case, we're creating a tag called "Env" with a value of "production" or "development" to label the instances used in production vs development environments. This tagging helps us with identifying all resources with the same tag at once (they are useful filters when you're searching for something), cost allocation, and applying policies based on environment types.
+<p>
+<img src="https://i.imgur.com/XDfrDQJ.png" height="80%" width="80%" alt="AD-adminCreation"/>
+</p>
