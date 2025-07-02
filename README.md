@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://i.imgur.com/QSvJXsR.png" height="80%" width="80%" alt="AD-adminCreation"/>
+<img src="https://i.imgur.com/QSvJXsR.png" alt="AD-adminCreation"/>
 </p>
 
 
