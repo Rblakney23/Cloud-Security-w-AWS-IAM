@@ -40,3 +40,12 @@ Tags are like labels you can attach to AWS resources for organization. In this c
 <p>
 <img src="https://i.imgur.com/XDfrDQJ.png" height="80%" width="80%" alt="AD-adminCreation"/>
 </p>
+
+Next, scroll down the EC2 settings and make sure the Amazon Machine Image(AMI) is with the free tier eligible option.
+
+An AMI is a template or blueprint used to create EC2 instances and contains the operating system along with the applications needed to launch the instance.
+
+Free tier eligible AMIs are those that qualify for the AWS Free Tier, so you won't get charged for using it.
+<p>
+<img src="https://i.imgur.com/59YjCJG.png" height="80%" width="80%" alt="AD-adminCreation"/>
+</p>
