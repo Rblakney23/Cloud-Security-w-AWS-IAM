@@ -5,7 +5,7 @@
 
 This lab is focused on mastering AWS Identity and Access Management (IAM) — the core service for authentication and authorization in AWS.
 
-What You'll Build
+<h2> What You'll Build </h2>
 - Establish IAM users, groups, and roles to manage identity and access.
 
 - Define least-privilege policies with JSON permission documents.
@@ -14,16 +14,14 @@ What You'll Build
 
 - Enable CloudTrail logging to audit IAM activity and policy usage.
 
-Project Goals
+<h2> Project Goals </h2>
 
 Authenticate and Authorize
 - Learn how IAM controls who (users) can do what (permissions) in your AWS environment.
 
 Implement Least-Privilege Access
-- Practice writing fine-grained policies that only allow necessary actions — a key cybersecurity best practice.
+- Practice writing fine-grained policies that only allow necessary actions
 
-Audit & Monitor
-- Use CloudTrail to track changes to identities and permissions, setting the foundation for secure, compliant access.
 
 <h2>In-Depth Deployment and Configuration Steps</h2>
 First, we will start by creating an EC2 instance:
