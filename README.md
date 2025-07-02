@@ -107,3 +107,21 @@ Success! Now you should be seeing sign in details for the new user. Important to
 <img src="https://i.imgur.com/oWJNY6g.png" height="80%" width="80%" alt="AD-adminCreation"/>
 </p>
 
+Time to test the new user's access. 
+
+In an incognito window sign in the the AWS console using the username and password of the created user. There should be some access denied panels showing on the account. 
+
+Go to the EC2 console, and make sure the region is the same area where you created the production and development instances. Next select the production instance -> instance state -> select stop instance.
+
+You should get a red banner telling you that this action cannot be done since this user doesn't have authorization. 
+<p>
+<img src="https://i.imgur.com/YswrFAg.png" height="80%" width="80%" alt="AD-adminCreation"/>
+</p>
+
+Now try to stop the development instance. You see the user was able to do this action.
+
+You have now completed using AWS IAM to control and test user permissions.
+<p>
+<img src="https://i.imgur.com/ym1ohfc.png" height="80%" width="80%" alt="AD-adminCreation"/>
+</p>
+
