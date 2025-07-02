@@ -72,3 +72,38 @@ Hit next and name the policy. I named mine "DevEnvironmentPolicy".
 <p>
 <img src="https://i.imgur.com/XtV5OIa.png" height="80%" width="80%" alt="AD-adminCreation"/>
 </p>
+
+Nice! Now that the policy is set up, we need to create an AWS alias account.
+
+Once you onboard new users into your AWS account, these new users get access through a unique login URL for your account.
+
+An Account Alias is a friendly name for your AWS account that you can use instead of your account ID (which is usually a bunch of digits) to sign in to the AWS Management Console.
+<p>
+<img src="https://i.imgur.com/zXwjnAc.png" height="80%" width="80%" alt="AD-adminCreation"/>
+</p>
+
+Moving along, we will create User Groups.
+
+An IAM user group is a collection/folder of IAM users. It allows you to manage permissions for all the users in your group at the same time by attaching policies to the group rather than individual users.
+
+Again, on the left-hand panel, choose User groups and select create group. Also, make sure the policy we created earlier is attached to this user group.
+<p>
+<img src="https://i.imgur.com/FwRQ03d.png" height="80%" width="80%" alt="AD-adminCreation"/>
+</p>
+
+This time, we will add users to the user group.
+
+IAM users are the people who will get access to your resources/AWS account, whereas user groups are the collections/folders of users for easier user management.
+
+We're adding users to iam-dev-group to grant them the permissions associated with that group.
+
+Make sure to check the box "Provide user access to the AWS Management Console".
+<p>
+<img src="https://i.imgur.com/uGxuEAX.png" height="80%" width="80%" alt="AD-adminCreation"/>
+</p>
+
+Success! Now you should be seeing sign in details for the new user. Important to take note of this.
+<p>
+<img src="https://i.imgur.com/oWJNY6g.png" height="80%" width="80%" alt="AD-adminCreation"/>
+</p>
+
