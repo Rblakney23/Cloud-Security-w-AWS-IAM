@@ -15,6 +15,7 @@ What You'll Build
 - Enable CloudTrail logging to audit IAM activity and policy usage.
 
 Project Goals
+
 Authenticate and Authorize
 - Learn how IAM controls who (users) can do what (permissions) in your AWS environment.
 
