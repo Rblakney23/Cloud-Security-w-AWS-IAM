@@ -25,3 +25,7 @@ Implement Least-Privilege Access
 Audit & Monitor
 - Use CloudTrail to track changes to identities and permissions, setting the foundation for secure, compliant access.
 
+<h2>In-Depth Deployment and Configuration Steps</h2>
+First, we will start by creating an EC2 instance:
+
+Amazon EC2 is a service that lets you rent and use virtual computers in the cloud. They're like your personal computers, but they exist on the internet instead of being physically in front of you. You can create, customize, and use these computers for all different reasons, from running applications to hosting websites.
