@@ -56,3 +56,19 @@ At this point, you should have 2 instances running!
 <p>
 <img src="https://i.imgur.com/GmMXePm.png" height="80%" width="80%" alt="AD-adminCreation"/>
 </p>
+
+The next thing to do is create an IAM policy. Search for "IAM" in the AWS console.
+
+IAM stands for Identity and Access Management. You'll use AWS IAM to manage the access level that other users and services have to your resources.
+
+An IAM policy is a rule for who can do what with your AWS resources. It's all about giving permissions to IAM users, groups, or roles, saying what they can or can't do on certain resources, and when those rules kick in.
+<p>
+<img src="https://i.imgur.com/cUiWSig.png" height="80%" width="80%" alt="AD-adminCreation"/>
+</p>
+
+On the left-hand navigation panel, select Policies. Then switch the policy editor to JSON, and copy the code for this policy.
+
+Hit next and name the policy. I named mine "DevEnvironmentPolicy".
+<p>
+<img src="https://i.imgur.com/XtV5OIa.png" height="80%" width="80%" alt="AD-adminCreation"/>
+</p>
