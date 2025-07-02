@@ -40,6 +40,7 @@ Tags are like labels you can attach to AWS resources for organization. In this c
 <p>
 <img src="https://i.imgur.com/XDfrDQJ.png" height="80%" width="80%" alt="AD-adminCreation"/>
 </p>
+<br />
 
 Next, scroll down the EC2 settings and make sure the Amazon Machine Image(AMI) is with the free tier eligible option.
 
@@ -49,6 +50,7 @@ Free tier eligible AMIs are those that qualify for the AWS Free Tier, so you won
 <p>
 <img src="https://i.imgur.com/59YjCJG.png" height="80%" width="80%" alt="AD-adminCreation"/>
 </p>
+<br />
 
 The next step is the lauch another instance with the same settings, but instead of the value being "production," name it "development" this time.
 
@@ -56,6 +58,7 @@ At this point, you should have 2 instances running!
 <p>
 <img src="https://i.imgur.com/GmMXePm.png" height="80%" width="80%" alt="AD-adminCreation"/>
 </p>
+<br />
 
 The next thing to do is create an IAM policy. Search for "IAM" in the AWS console.
 
@@ -65,6 +68,7 @@ An IAM policy is a rule for who can do what with your AWS resources. It's all ab
 <p>
 <img src="https://i.imgur.com/cUiWSig.png" height="80%" width="80%" alt="AD-adminCreation"/>
 </p>
+<br />
 
 On the left-hand navigation panel, select Policies. Then switch the policy editor to JSON, and copy the code for this policy.
 
@@ -72,6 +76,7 @@ Hit next and name the policy. I named mine "DevEnvironmentPolicy".
 <p>
 <img src="https://i.imgur.com/XtV5OIa.png" height="80%" width="80%" alt="AD-adminCreation"/>
 </p>
+<br />
 
 Nice! Now that the policy is set up, we need to create an AWS alias account.
 
@@ -81,6 +86,7 @@ An Account Alias is a friendly name for your AWS account that you can use instea
 <p>
 <img src="https://i.imgur.com/zXwjnAc.png" height="80%" width="80%" alt="AD-adminCreation"/>
 </p>
+<br />
 
 Moving along, we will create User Groups.
 
@@ -90,6 +96,7 @@ Again, on the left-hand panel, choose User groups and select create group. Also,
 <p>
 <img src="https://i.imgur.com/FwRQ03d.png" height="80%" width="80%" alt="AD-adminCreation"/>
 </p>
+<br />
 
 This time, we will add users to the user group.
 
@@ -101,11 +108,13 @@ Make sure to check the box "Provide user access to the AWS Management Console".
 <p>
 <img src="https://i.imgur.com/uGxuEAX.png" height="80%" width="80%" alt="AD-adminCreation"/>
 </p>
+<br />
 
 Success! Now you should be seeing sign in details for the new user. Important to take note of this.
 <p>
 <img src="https://i.imgur.com/oWJNY6g.png" height="80%" width="80%" alt="AD-adminCreation"/>
 </p>
+<br />
 
 Time to test the new user's access. 
 
@@ -117,6 +126,7 @@ You should get a red banner telling you that this action cannot be done since th
 <p>
 <img src="https://i.imgur.com/YswrFAg.png" height="80%" width="80%" alt="AD-adminCreation"/>
 </p>
+<br />
 
 Now try to stop the development instance. You see the user was able to do this action.
 
