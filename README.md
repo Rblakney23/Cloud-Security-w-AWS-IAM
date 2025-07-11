@@ -46,7 +46,7 @@ An AMI is a template or blueprint used to create EC2 instances and contains the 
 
 Free tier eligible AMIs are those that qualify for the AWS Free Tier, so you won't get charged for using it. Finally launch your instance!
 <p>
-<img src="https://i.imgur.com/59YjCJG.png" height="80%" width="80%" alt="AD-adminCreation"/>
+<img src="https://i.imgur.com/59YjCJG.png" width="80%" alt="AD-adminCreation"/>
 </p>
 <br />
 
@@ -54,7 +54,7 @@ The next step is the lauch another instance with the same settings, but instead 
 
 At this point, you should have 2 instances running!
 <p>
-<img src="https://i.imgur.com/GmMXePm.png" height="80%" width="80%" alt="AD-adminCreation"/>
+<img src="https://i.imgur.com/GmMXePm.png" width="80%" alt="AD-adminCreation"/>
 </p>
 <br />
 
@@ -64,7 +64,7 @@ IAM stands for Identity and Access Management. You'll use AWS IAM to manage the 
 
 An IAM policy is a rule for who can do what with your AWS resources. It's all about giving permissions to IAM users, groups, or roles, saying what they can or can't do on certain resources, and when those rules kick in.
 <p>
-<img src="https://i.imgur.com/cUiWSig.png" height="80%" width="80%" alt="AD-adminCreation"/>
+<img src="https://i.imgur.com/cUiWSig.png" width="80%" alt="AD-adminCreation"/>
 </p>
 <br />
 
@@ -72,7 +72,7 @@ On the left-hand navigation panel, select Policies. Then switch the policy edito
 
 Hit next and name the policy. I named mine "DevEnvironmentPolicy".
 <p>
-<img src="https://i.imgur.com/XtV5OIa.png" height="80%" width="80%" alt="AD-adminCreation"/>
+<img src="https://i.imgur.com/XtV5OIa.png" width="80%" alt="AD-adminCreation"/>
 </p>
 <br />
 
@@ -82,7 +82,7 @@ Once you onboard new users into your AWS account, these new users get access thr
 
 An Account Alias is a friendly name for your AWS account that you can use instead of your account ID (which is usually a bunch of digits) to sign in to the AWS Management Console.
 <p>
-<img src="https://i.imgur.com/zXwjnAc.png" height="80%" width="80%" alt="AD-adminCreation"/>
+<img src="https://i.imgur.com/zXwjnAc.png" width="80%" alt="AD-adminCreation"/>
 </p>
 <br />
 
@@ -92,7 +92,7 @@ An IAM user group is a collection/folder of IAM users. It allows you to manage p
 
 Again, on the left-hand panel, choose User groups and select create group. Also, make sure the policy we created earlier is attached to this user group.
 <p>
-<img src="https://i.imgur.com/FwRQ03d.png" height="80%" width="80%" alt="AD-adminCreation"/>
+<img src="https://i.imgur.com/FwRQ03d.png" width="80%" alt="AD-adminCreation"/>
 </p>
 <br />
 
@@ -104,13 +104,13 @@ We're adding users to iam-dev-group to grant them the permissions associated wit
 
 Make sure to check the box "Provide user access to the AWS Management Console".
 <p>
-<img src="https://i.imgur.com/uGxuEAX.png" height="80%" width="80%" alt="AD-adminCreation"/>
+<img src="https://i.imgur.com/uGxuEAX.png" width="80%" alt="AD-adminCreation"/>
 </p>
 <br />
 
 Success! Now you should be seeing sign in details for the new user. Important to take note of this.
 <p>
-<img src="https://i.imgur.com/oWJNY6g.png" height="80%" width="80%" alt="AD-adminCreation"/>
+<img src="https://i.imgur.com/oWJNY6g.png" width="80%" alt="AD-adminCreation"/>
 </p>
 <br />
 
@@ -122,7 +122,7 @@ Go to the EC2 console, and make sure the region is the same area where you creat
 
 You should get a red banner telling you that this action cannot be done since this user doesn't have authorization. 
 <p>
-<img src="https://i.imgur.com/YswrFAg.png" height="80%" width="80%" alt="AD-adminCreation"/>
+<img src="https://i.imgur.com/YswrFAg.png" width="80%" alt="AD-adminCreation"/>
 </p>
 <br />
 
@@ -130,6 +130,6 @@ Now try to stop the development instance. You see the user was able to do this a
 
 You have now completed using AWS IAM to control and test user permissions.
 <p>
-<img src="https://i.imgur.com/ym1ohfc.png" height="80%" width="80%" alt="AD-adminCreation"/>
+<img src="https://i.imgur.com/ym1ohfc.png" width="80%" alt="AD-adminCreation"/>
 </p>
 
