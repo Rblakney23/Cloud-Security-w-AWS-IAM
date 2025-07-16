@@ -6,6 +6,7 @@
 This lab is focused on mastering AWS Identity and Access Management (IAM) — the core service for authentication and authorization in AWS.
 
 <h2> What You'll Build </h2>
+
 - Establish IAM users, groups, and roles to manage identity and access.
 
 - Define least-privilege policies with JSON permission documents.
